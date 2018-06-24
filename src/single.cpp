@@ -15,8 +15,8 @@
 
 
 // Reads data from an image
-void decodeData(unsigned int i, unsigned int j, int charLength, cv::Mat &src, std::mt19937::result_type seed,
-                int randMin, int randMax) {
+void decodeData(unsigned int i, unsigned int j, int charLength, cv::Mat &src, 
+		std::mt19937::result_type seed, int randMin, int randMax) {
     std::string phrase = "";
     unsigned int word = 0;
     int color;
