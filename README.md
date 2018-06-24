@@ -5,6 +5,7 @@ If you are invested in crypto you are either worried that you will lose your cry
 
 ### Prerequisites
 Image's have their pixel values modified by OpenCV
+
 [OpenCV](https://github.com/opencv/opencv) - Intel's Open Source Computer Vision Library
 
 ### Building
