@@ -42,7 +42,7 @@ void decodeData(unsigned int i, unsigned int j, int charLength, cv::Mat &src, st
                 }
             }
         }
-        // Concatenates that chars together
+        // Concatenates the chars together
         phrase += (char)word;
         word = 0;
     }
