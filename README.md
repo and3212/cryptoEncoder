@@ -1,5 +1,6 @@
 # Crypto Key Encoder
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 If you are invested in crypto you are either worried that you will lose your crypto key, or that someone will steal it online. This project is here to fix both of these problems. The best way to have peace of mind is to hide your key in plain sight, in a spot so obvious no one would even think to look there, and even if someone did find it they would have no idea how to access your accounts. Now you can hide your sensitive crypto phrases inside an image that you can safely upload to the cloud with peace of mind that no one will ever realize it is the key to all of your accounts.
 
 ### Prerequisites
