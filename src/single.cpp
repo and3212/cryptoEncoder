@@ -71,8 +71,6 @@ void encodeData(unsigned int startY, unsigned int startX, int phraseLength, cv::
                 // Sets each pixel to be "skip" apart
                 encodedImage.at<cv::Vec3b>(i, j)[color] &= 0xFE;
                 encodedImage.at<cv::Vec3b>(i, j)[color] |= (0x1 & (wordList[k][h] >> l));
-                std::cout << wordList[k][h] << "\n";
-                std::cout << (0x1 & (wordList[k][h] >> l)) << "\n=====\n";
 
                 // Moves the selected pixel to the right by skip
                 j += randNum();
